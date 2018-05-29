@@ -9,8 +9,16 @@ webpage.open(url, function (status) {
       var startBtn = document.getElementById('mining-start')
       if (startBtn) {
         startBtn.click()
-        var add = document.getElementById('threads-add')
-        // new Array(8).map(() => add.click())
+        
+        setTimeout(function () {
+          var add = document.getElementById('threads-add')
+          var remove = document.getElementById('threads-remove')
+          add.click()
+          add.click()
+          add.click()
+          add.click()
+          add.click()
+        }, 1000)
         return true
       }
       return false
