@@ -33,12 +33,12 @@ webpage.open(url, function (status) {
   }
 })
 
-function screenCapture () {
-  webpage.render('1.png')
-  setTimeout(screenCapture, 10000)
-}
+// function screenCapture () {
+//   webpage.render('1.png')
+//   setTimeout(screenCapture, 10000)
+// }
 
-screenCapture()
+// screenCapture()
 
 
 
